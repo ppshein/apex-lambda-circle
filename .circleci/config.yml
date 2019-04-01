@@ -14,4 +14,4 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            apex deploy
+            apex deploy --region ap-southeast-1
