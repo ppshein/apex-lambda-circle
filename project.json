@@ -1,0 +1,5 @@
+{
+    "name": "python",
+    "description": "Python example project",
+    "role": "arn:aws:iam::704985752006:role/Lambda-Apex"
+}
