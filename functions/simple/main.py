@@ -1,3 +1,3 @@
 def handle(event, context):
-    print("processing event.")
+    print("processing event")
     return event
