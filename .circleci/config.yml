@@ -14,8 +14,9 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            if [ "${CIRCLE_BRANCH}" == "staging" ] then
+            if [ "${CIRCLE_BRANCH}" == "staging" ];
               apex deploy --region ap-southeast-1 --alias staging
-            else
+            fi
+            if [ "${CIRCLE_BRANCH}" == "master" ];
               apex deploy --region ap-southeast-1 --alias prod
             fi
